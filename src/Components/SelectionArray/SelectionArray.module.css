@@ -1,0 +1,29 @@
+.outerDiv {
+  display: flex;
+  background-color: transparent;
+  border-right: dotted 1px white;
+  width: fit-content;
+  position: fixed;
+  z-index: 2;
+  bottom: 1rem;
+  left: 1rem;
+}
+.outerDiv button {
+  text-decoration: none;
+  border: none;
+  border-left: dotted 1px white;
+  border-top: dotted 1px white;
+  border-bottom: dotted 1px white;
+  background-color: transparent;
+  outline: none;
+  width: 18px;
+  font-size: 12px;
+  height: 18px;
+  padding: 2px;
+  color: white;
+}
+.outerDiv button:hover {
+  color: white;
+  transform: scale(1.2, 1.2);
+  cursor: pointer;
+}

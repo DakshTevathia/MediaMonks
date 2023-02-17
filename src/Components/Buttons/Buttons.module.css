@@ -1,0 +1,32 @@
+.bck {
+  position: fixed;
+  top: 45%;
+  z-index: 2;
+  height: 20px;
+  background: transparent;
+  border: none;
+  left: 10px;
+  color: white;
+  outline: none;
+}
+.bck h1 {
+  font-size: 4rem;
+  font-weight: 200;
+  text-shadow: 2px 2px black;
+}
+.fwd {
+  position: fixed;
+  top: 45%;
+  z-index: 2;
+  right: 10px;
+  background: transparent;
+  border: none;
+  color: white;
+  outline: none;
+}
+
+.fwd h1 {
+  font-size: 4rem;
+  font-weight: 200;
+  text-shadow: 2px 2px black;
+}
