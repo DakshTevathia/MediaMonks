@@ -2,10 +2,10 @@
   position: fixed;
   top: 40%;
   z-index: 2;
-  height: 20px;
+  height: 2rem;
   background: transparent;
   border: none;
-  left: 10px;
+  left: 0.5rem;
   color: white;
   outline: none;
 }
@@ -18,7 +18,7 @@
   position: fixed;
   top: 40%;
   z-index: 2;
-  right: 10px;
+  right: 0.5rem;
   background: transparent;
   border: none;
   color: white;

@@ -1,9 +1,8 @@
-
 .App .mediaMonksLogo {
-  height: 80px;
+  height: 6rem;
   z-index: 5;
   position: fixed !important;
-  bottom: 10px;
-  right: 10px !important;
+  bottom: 0.5rem;
+  right: 1rem !important;
   color: white;
 }

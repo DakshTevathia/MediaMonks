@@ -5,8 +5,8 @@ const TextContent = ({ selectedIndex }) => {
   let styleObjectDetails1;
   let stylesObjectDetails1Left = {
     left: "4rem",
-    fontSize: "40px",
-    width: "350px",
+    fontSize: "2.5rem",
+    width: "22rem",
     position: "fixed",
     top: "42%",
     textDecoration: "underline",
@@ -15,8 +15,8 @@ const TextContent = ({ selectedIndex }) => {
   };
   let stylesObjectDetails1Right = {
     right: "4rem",
-    fontSize: "40px",
-    width: "350px",
+    fontSize: "2.5rem",
+    width: "22rem",
     position: "fixed",
     top: "42%",
     textDecoration: "underline",
@@ -29,8 +29,8 @@ const TextContent = ({ selectedIndex }) => {
     bottom: "1.1rem",
     left: "15%",
     color: "white",
-    fontSize: "12px",
-    width: "350px",
+    fontSize: "0.75rem",
+    width: "22rem",
   };
   let textFilled1;
   let textFilled2;
@@ -39,11 +39,11 @@ const TextContent = ({ selectedIndex }) => {
     textFilled2 =
       "In Januart 2011, after a decade, we opened the doors to our temple.Follow our noble eightfold path to digital enlightenment";
     styleObjectDetails1 = {
-      left: "10px",
-      fontSize: "40px",
-      width: "350px",
+      left: "0.625rem",
+      fontSize: "2.5rem",
+      width: "22rem",
       position: "fixed",
-      top: "10px",
+      top: "0.625rem",
       textDecoration: "underline",
       color: "white",
       fontWeight: "200",
@@ -51,10 +51,10 @@ const TextContent = ({ selectedIndex }) => {
     styleObjectDetails2 = {
       position: "fixed",
       bottom: "7%",
-      left: "10px",
+      left: "0.625rem",
       color: "white",
-      fontSize: "12px",
-      width: "350px",
+      fontSize: "0.75rem",
+      width: "22rem",
     };
   } else if (selectedIndex === 1) {
     styleObjectDetails1 = { ...stylesObjectDetails1Left };
@@ -91,11 +91,8 @@ const TextContent = ({ selectedIndex }) => {
   } else {
     //9th is selected and we render a diff. component
   }
-
-  console.log(selectedIndex);
   return (
     <>
-      {" "}
       {selectedIndex !== 9 ? (
         <div>
           <div style={styleObjectDetails1}>
