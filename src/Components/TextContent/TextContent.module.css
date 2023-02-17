@@ -1,8 +1,0 @@
-.textContentContainer {
-  background-color: blue;
-  position: fixed;
-  top: 50px;
-  height: 100px;
-  width: 100px;
-  z-index: 2;
-}

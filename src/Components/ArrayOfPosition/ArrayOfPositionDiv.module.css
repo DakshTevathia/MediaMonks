@@ -6,7 +6,7 @@
   grid-template-columns: repeat(10, 1fr);
   z-index: 2;
   width: 670%;
-  /* visibility: hidden; */
+  visibility: hidden;
   gap: 2rem;
 }
 

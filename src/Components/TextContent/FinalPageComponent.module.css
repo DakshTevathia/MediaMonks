@@ -1,0 +1,25 @@
+.containerDiv {
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  color: white;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.containerDiv > p {
+  font-size: 5rem;
+}
+.horizonalFlex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.containerDiv span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
