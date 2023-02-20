@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/MediaMonks/static/css/main.e6a2a9fb.css",
+    "main.js": "/MediaMonks/static/js/main.7810e9d5.js",
+    "static/media/background.jpg": "/MediaMonks/static/media/background.6d4b8f7c9cd7895a31fb.jpg",
+    "static/media/klavika-regular-webfont.woff": "/MediaMonks/static/media/klavika-regular-webfont.031c20f0d79e79d6eba2.woff",
+    "static/media/logo.svg": "/MediaMonks/static/media/logo.fa33c28a1c55e0fb19a9914cc229a50e.svg",
+    "index.html": "/MediaMonks/index.html",
+    "main.e6a2a9fb.css.map": "/MediaMonks/static/css/main.e6a2a9fb.css.map",
+    "main.7810e9d5.js.map": "/MediaMonks/static/js/main.7810e9d5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6a2a9fb.css",
+    "static/js/main.7810e9d5.js"
+  ]
+}
