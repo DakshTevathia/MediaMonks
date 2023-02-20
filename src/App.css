@@ -6,3 +6,10 @@
   right: 1rem !important;
   color: white;
 }
+@font-face {
+  font-family: "klavika"; /*Can be any text*/
+  src: url("../public/Fonts/klavika-regular-webfont.woff") format("woff");
+}
+.klavika {
+  font-family: klavika;
+}

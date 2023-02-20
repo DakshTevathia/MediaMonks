@@ -14,7 +14,7 @@ function App() {
     setRefArray(refArr);
   };
   return (
-    <div className="App">
+    <div className="App klavika">
       <img className="mediaMonksLogo" src={logo} alt="logo"></img>
       <MainImageComponent />
       <ArrayOfPositionDiv getRefArray={getRefArray} />

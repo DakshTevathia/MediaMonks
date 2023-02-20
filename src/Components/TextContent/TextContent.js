@@ -46,7 +46,6 @@ const TextContent = ({ selectedIndex }) => {
       top: "0.625rem",
       textDecoration: "underline",
       color: "white",
-      fontWeight: "200",
     };
     styleObjectDetails2 = {
       position: "fixed",
